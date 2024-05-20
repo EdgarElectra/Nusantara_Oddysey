@@ -1,18 +1,41 @@
-body {background-color: gray;
-      border:4px solid gray;
-      border-radius:16px;
+/* Place your CSS styles in this file */
+
+h1{
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 100px;
 }
 
-nav ul {list-style-type:none;
+ul {background-color: #8ccaff; 
+   padding: 25px 20px;
+   border-radius: 10px;
+   border: solid black;
+   }
+
+li {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #3385cc;
+    border-radius: 10px;
+    border: solid black;
 }
 
-nav ul li {display:inline;
+ul li {list-style-type-none; display: inline-block;}
+
+p {
+    text-align: left;
+    color: yellow;
+    font-size: 20px;
 }
 
-h1 {text-align:center;
-    font-weight: bold;
-    color:black; font-size:60px;
+h2 {
+    text-align: left;
+    color: yellow;
+    font-size: 20px;
 }
 
-p {text-align: center; color:white; font-size:20px
-}
+button {font-size: 50px;
+        text-align: center;
+        background-color: yellow;
+      }
