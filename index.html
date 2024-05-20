@@ -1,38 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1> SAKA ISLAND </h1>
-<nav>
-<ul>
-<li> Home </li>
-<a href="Design Process.html"><li> Design Process </li></a>
-<li> Produk </li>
-</ul>
-</nav>
-<pre>
-<p> Kami sekelompok siswa-siswi SMAN 71 Jakarta, ingin memperkanalkan game 
-kami yang bertemakan Dora. Game kami terinspirasi dari game anak-anak yaitu 
-“Dora the Explorer Adventure”. Yang membedakan kami dengan game dora explora 
-adventure ialah game kami bertujuan untuk mempromosikan kebudayaan Indonesia 
-yang dimana pada masa kini banyak anak muda yang tidak mengenal kebudayaan 
-Indonesia.
+    <head>
+        <meta charset="utf-8">
 
-Kami beranggotakan
-Edgar = Web programmer
-Laurent = Conten writer
-Nayla = Game designer
-Radit = Graphic designer
-Yessica = Publikasi
+        <title>Edgar Harun Electra</title>
 
-Tujuan kami membuat game ini adalah:
-1. Kurangnya pemahaman generasi muda tentang kebudayaan Indonesia.
-2. Minimnya minat terhadap warisan budaya tradisional.
-3. Perlunya upaya pelestarian budaya yang terancam punah.
-4. Kurangnya media pembelajaran budaya yang interaktif dan menarik.
-5. Meningkatkan rasa nasionalisme dan identitas budaya Indonesia.
-</p>
-</body>
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+
+    </head>
+
+    <style>
+        *, html, body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parallax {
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100vh;
+        }
+        .intro {
+            background-image: url("Background_Raja_Ampat.jpg");
+        }
+        .content {
+            background-image: url("Tim_Projek_Informatika.jpeg");
+        }
+        .footer {
+            background-image: url("Matterhorn_Mountain.jpg");
+        }
+
+        .lgw{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+    </style>
+    <body>
+     
+     <div class="parallax intro">
+        <ul  class="animate__animated animate__fadeInUpBig animate__delay-1s">
+         <li> Home </li>
+         <a href="About_Us.html"><li> About Us </li></a>
+         <a href="https://www.canva.com/design/DAGEblWqR4Q/fp4lkGVu1tTJ07N8zQO0Dw/view?utm_content=DAGEblWqR4Q&utm_campaign=designshare&utm_medium=link&utm_source=editor"><li> Design Process </li></a>
+          <a href="Product.html"><li> Product </li></a>
+        </ul>
+        <br></br>
+        <br></br>
+        <h1 align="center"> Welcome to </h1>
+        
+        <div class="lgw"><img src= "Logo_game.png" class="animate__animated animate__fadeInUpBig animate__delay-2s"></div>
+     </div>
+     
+     
+     
+     
+     
+     
+     <div class="parallax content">
+        <h1 align="center"> Our Team </h1>
+        
+            <p>
+            <h2> Edgar Harun Electra</h2>
+            <p> 
+            Job: Web Programmer
+            Web proggamer adalah seorang yang
+            mengkhususkan diri dalam, atau secara khusus terlibat dalam, pengembangan aplikasi World Wide Web. 
+            Tanggung Jawab dan Deskripsi Pekerjaan Programmer adalah penulis dan penguji kode yang digunakan untuk membuat program perangkat lunak. </p>
+
+            <h2> Radit Nadra Suhendri </h2>
+            <p>
+            Job: Graphic Designer
+            Graphic Designer adalah profesi di industri kreatif yang bertanggung jawab untuk membuat konten visual sesuai media yang dibutuhkan 
+            (digital atau cetak). Konten visual yang dimaksud adalah desain grafis seperti logo, poster, post sosial media, dll. Tugas Graphic 
+            Designer adalah membuat grafik visual menggunakan perangkat lunak komputer atau dengan tangan, untuk mengkomunikasikan pesan tertentu 
+            secara efektif kepada audiens yang dituju. Seorang Desainer Grafis membuat 
+            dan menggabungkan gambar, font, dan foto menjadi tata letak statis atau interaktif yang menarik. </p>
+
+            <h2> Laurent Fransisca </h2>
+            <p>
+            Job: Content Writer
+            content writer adalah seorang penulis profesional yang memproduksi konten-konten menarik di media online. Konten yang mereka ciptakan 
+            bisa berbentuk artikel blog, 
+            post di sosial media, atau apa pun yang ditulis dalam platform online. Selain menulis, mereka juga memiliki tanggung jawab untuk 
+            memastikan agar desain, gambar, 
+            serta tulisan yang dibuatnya selaras dan berkaitan dengan visi perusahaan.
+            Mereka pun harus memutar otak setiap harinya mengenai cara menulis konten yang diminati oleh para pembaca.</p>
+
+            <h2> Nayla Valenzky Audrey </h2>
+            <p>
+            Job: Content Writer
+            content writer adalah seorang penulis profesional yang memproduksi konten-konten menarik di media online. Konten yang mereka ciptakan 
+            bisa berbentuk artikel blog, 
+            post di sosial media, atau apa pun yang ditulis dalam platform online. Selain menulis, mereka juga memiliki tanggung jawab untuk 
+            memastikan agar desain, gambar, 
+            serta tulisan yang dibuatnya selaras dan berkaitan dengan visi perusahaan.
+            Mereka pun harus memutar otak setiap harinya mengenai cara menulis konten yang diminati oleh para pembaca.</p>
+
+            <h2> Yessica Sari </h2>
+            <p>
+            Job: Kelinci Percobaan
+            </p>
+
+        </p>
+        
+     </div>
+     
+     
+     <div class="parallax footer"></div>
+
+     
+             
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+     
+    </body>
+
 </html>
