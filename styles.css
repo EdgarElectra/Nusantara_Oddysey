@@ -26,7 +26,7 @@ ul li {list-style-type-none; display: inline-block;}
 
 
 p {
-    text-align: left;
+
     color: yellow;
     font-size: 22px;
 }
@@ -43,3 +43,15 @@ button {font-size: 50px;
     border-radius: 10px;
     border: solid yellow;
       }
+
+h5 {
+    font-size: 25px;
+    background-color: #8ccaff;
+    border-radius: 10px;
+    border: solid black;
+    
+    
+   }
+
+h3 {color: yellow;
+    font-size: 25px;}
